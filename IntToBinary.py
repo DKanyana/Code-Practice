@@ -14,4 +14,9 @@ def add_binary(a,b):
         add = add//2
         result += str(remainder)
     return result[::-1]
+
+#OR 
+
+def add_binary(a,b):
+    return bin(a+b)[2:]
         
