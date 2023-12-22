@@ -16,5 +16,4 @@ def divisors(integer):
     divisorList = [i for i in range(2, int(integer/2)+1) if integer%i==0]
     if len(divisorList) > 0:
         return divisorList
-    else:
-        return str(integer)+' is prime'
+    return str(integer)+' is prime'
